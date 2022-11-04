@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    background: url(/14.8/images/barna-bartis-uqjOtMzoEg4-unsplash.jpg);
+    background-size:contain;
+    background-position:center;
+    height: 100hv;
+    /* opacity: 0.7; */
+    
+}
+
+
+.banner-text {
+    text-align: center;
+    color: rgb(5, 54, 71);
+    padding-top: 180px;
+}
+
+.banner-text h1 {
+    font: 5em Aclonica;
+    background: -webkit-linear-gradient(rgb(2, 14, 22), rgb(8, 68, 114));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-text p {
+    font-size: 30px;
+    background: -webkit-linear-gradient(rgb(2, 20, 31), rgb(46, 59, 68));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.banner-btn{
+    margin-left: 1200px;
+    
+}
+.banner-btn a{
+    width: 200px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 0;
+    color: rgb(12, 52, 49);
+    border: .2px  solid rgb(26, 58, 56);
+    position:relative;
+    z-index: 1;
+    /* transition: color 0.5s; */
+}
+
+.banner-btn a span {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background: rgba(75, 117, 112, 0.865);
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span{
+    width: 100%;
+}
+
+.banner-btn a:hover {
+    color: rgb(44, 114, 119);
+}
+
+.a1 {
+    text-decoration: none;
+    color: #0c3b47;
+    z-index: -1;
+    transition: color 0.5s;
+    font-size: large;
+    font-weight: 400;
+    
+}
+
+.login {
+    border-radius: 10px;
+    box-shadow: 0 0 7px 3px #1d8492;
+    text-indent: 30px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+    line-height: 2.6em;
+    background-color: rgba(121, 201, 203, 0.447);
+
+}
+#login {
+    background-image: url(/14.8/images/arvydas-baltinas-EuNu73Wtpgk-unsplash.jpg);
+    opacity: 0,7;
+}
+
+.a2 {
+    text-decoration: none;
+    color: #062c35;
+}
+
+body {
+    background-image: url(/14.8/images/andrii-leonov-tdgtqe_srmQ-unsplash.jpg);
+    background-size: cover;
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.copyright {
+    text-decoration:rgb(12, 52, 49) none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+#service 
+    {
+        width: 600px;
+        margin: 0 auto 32px;
+        padding: 6px 15px;
+        border-bottom: 1px solid rgb(128, 128, 128);
+        opacity: 1;
+        text-align: center;
+        font-family: Aclonica;
+        color: #06262d;
+        text-shadow: rgb(247, 255, 255) 2em;
+    }
+
+/* #mineral {
+    height: 300px;
+    width: 300px;
+
+}
+
+#wolf {
+    height: 300px;
+    width: 300px;
+
+}
+
+#pagosa {
+    height: 300px;
+    width: 300px;
+
+}
+
+#scrub{
+    height: 300px;
+    width: 300px;
+
+} */
