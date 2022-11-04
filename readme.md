@@ -1,6 +1,8 @@
-##PHP final project
+# PHP final project
 
 Using:
-*HTML
-*CSS
-*PHP
+* HTML
+* CSS
+* PHP
+
+SEA SALT SPA resort
